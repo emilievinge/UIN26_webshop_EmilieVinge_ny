@@ -41,7 +41,7 @@ export default function Teams(){
         localStorage.setItem('teams', JSON.stringify(teams))
     },[])
     
-    //TODO:Hent ut alle lagene og vis de som ulike kort, se skisse for referanse. 
+    //TODO: Hent ut alle lagene og vis de som ulike kort, se skisse for referanse. 
     //TODO: Lag lagkortene som komponenter, pass på å bruk bildene baser på navn verdien dere henter fra lagene. (Se typekortene for referanse)
 
     return(<h1>Teams</h1>)

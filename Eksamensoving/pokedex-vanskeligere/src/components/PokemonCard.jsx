@@ -7,8 +7,9 @@ export default function PokemonCard({url, classN}){
         const response = await fetch(url)
         const data = await response.json()
         setPokemon(data)
-        } catch 
-            {console.error(err)}
+        } catch(err){
+            console.error(err)
+        }
     }
 
     useEffect(()=>{

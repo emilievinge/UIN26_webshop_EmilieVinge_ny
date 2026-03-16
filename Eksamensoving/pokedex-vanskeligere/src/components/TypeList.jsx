@@ -12,7 +12,7 @@ export default function TypeList({types}){
         <section className="flex">
             <h2>Types</h2>
             {typesToUse?.map((type) => (
-            <article className={`type-${type.name} type-card`}>
+            <article className={`type-${type.name} type-card`} >
                 <Link to={`/types/${type.name}`} className="type-link">
                 {/*Gjør om til en kompnent*/} 
                 <p>{type.name}</p>
